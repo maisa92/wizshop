@@ -35,8 +35,8 @@ spec:
               mountPath: /var/www/html
             - name: php-config
               mountPath: /usr/local/etc/php/conf.custom
-            # - name: wizshop-theme
-            #   mountPath: /var/www/html/wp-content/themes/Parallax-One
+            - name: wizshop-theme
+              mountPath: /var/www/html/wp-content/themes/Parallax-One
       volumes:
         - name: wordpress-persistent-storage
           persistentVolumeClaim:
@@ -44,6 +44,6 @@ spec:
         - name: php-config
           configMap:
             name: wordpress-demo-php-config
-        # - name: wizshop-theme
-        #   hostPath:
-        #     path: wizshop-theme/
+        - name: wizshop-theme
+          hostPath:
+            path: /home/giorgi_maisuradze92/wizshop/wizshop-theme
