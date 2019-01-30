@@ -46,4 +46,4 @@ spec:
             name: wordpress-demo-php-config
         - name: wizshop-theme
           hostPath:
-            path: ../wizshop-theme
+            path: wizshop-theme
