@@ -27,7 +27,7 @@
                         <tbody>
                         <tr>
                             <td><strong>ყოველთიური გადასახადი</strong></td>
-                            <td><span class="txt-top"></span><span class="txt-l">60 ლარი</span></td>
+                            <td><span class="txt-top"></span><span class="txt-l">69.99 ლარი</span></td>
                             <td><span class="txt-top"></span><span class="txt-l">ინდივიდუალური</span></td>
                         </tr>
 
